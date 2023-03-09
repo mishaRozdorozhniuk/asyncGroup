@@ -1,0 +1,69 @@
+.boost {
+    background: #1B1B1B;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.boost-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.boost-el {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+}
+
+.boost-price {
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+}
+
+.boost-price.yellow {
+    color: #F9C336;
+    font-weight: bold;
+}
+
+.boost-price.green {
+    color: green;
+}
+
+.boost-money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-dark {
+    padding: 15px 20px;
+    background: #0E0E0E;
+    border: 1px solid #2D2D2D;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.boost-coefficient {
+    margin-top: 35px;
+}
+
+.boost-money-eur {
+    margin-left: 90px;
+}
+
+.boost-pay-btn {
+    background: linear-gradient(180deg, #54B052 0%, #287226 100%);
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    margin-top: 40px;
+}

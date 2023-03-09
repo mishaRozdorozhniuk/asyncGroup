@@ -1,0 +1,29 @@
+.total__info {
+    padding: 15px;
+    background: linear-gradient(180deg, #F1F1F1 0%, #9E9E9E 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.total__select {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.total__results {
+    margin-right: 100px;
+}
+
+.total__results span {
+    font-size: 18px;
+    margin: 0 50px;
+    font-weight: bold;
+    border-left: 1px solid rgba(255, 255, 255, 0.21);
+    border-right: 1px solid rgba(255, 255, 255, 0.21);
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
+    transform: rotate(90deg);
+    padding: 12px 45px 12px 45px;
+}

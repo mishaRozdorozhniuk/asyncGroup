@@ -1,0 +1,48 @@
+.ticket {
+    background: #151515;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ticket__team {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.ticket__goals {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.goals-green {
+    color: #22B14C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.coefficient {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 3px;
+    padding: 2px 6px;
+}
+
+.cross-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.cross {
+    height: 30px;
+    margin-bottom: 5px;
+}

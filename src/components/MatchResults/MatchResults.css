@@ -1,0 +1,115 @@
+.match__result-main {
+    flex: 1;
+}
+
+.match__result {
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.match__time {
+    color: #22B14C;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.match__data-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    padding: 15px;
+}
+
+.match__date {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.match__team {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.result {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0 3px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.score-wrapper,
+.match__result-inner {
+    display: flex;
+}
+
+.score-wrapper {
+    margin-right: 145px;
+}
+
+.locked-icon {
+    height: 25px;
+}
+
+.unvaliable {
+    letter-spacing: 0.29px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    border: 3px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.match__result:last-child .score-wrapper .score {
+    margin: 0 75px;
+}
+
+.match__result:last-child .score-wrapper .score:nth-child(2) {
+    margin: 0 105px;
+}
+
+.match__result:last-child .score-wrapper .score:nth-child(1) {
+    margin-right: 10px;
+}
+
+.match__select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #161616;
+    border-radius: 5px;
+    color: #fff;
+    padding: 26px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.match__select img {
+    margin-right: 20px;
+}
+
+.burger-icon {
+    height: 20px;
+}

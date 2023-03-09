@@ -1,0 +1,16 @@
+.country__versus {
+    background: #1F1F1F;
+    border-radius: 3px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.ball-icon {
+    padding-left: 5px;
+}
+
+.country__versus span {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 8px;
+}
+

@@ -1,0 +1,18 @@
+.sport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #151515;
+}
+
+.sport__wrapper {
+    background: linear-gradient(180deg, #232323 0%, #151515 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+    margin: 5px;
+}
+
+.sport__wrapper img {
+    height: 50px;
+}
